@@ -1,8 +1,42 @@
-# React + Vite
+# AcademiaForms Frontend Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This document outlines the steps to set up the frontend for the AcademiaForms project.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you begin, ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/en/download/) (>= 14.x)
+- [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
+
+## Installation Steps
+
+Follow these steps to set up the frontend environment:
+
+1. **Clone the Repository**
+
+   Clone the project repository to your local machine using the following command:
+
+       git clone https://github.com/MohamedHamdanA/AcademiaForms.git
+
+2. **Navigate to the Frontend Directory**
+
+   Change your current working directory to the frontend folder (adjust the directory name as necessary):
+
+       cd web
+
+3. **Install Dependencies**
+
+   Use npm to install the required packages:
+
+       npm install
+
+4. **Run the Development Server**
+
+   Start the frontend development server with the following command:
+
+       npm run dev
+
+## Conclusion
+
+You have successfully set up the frontend for the AcademiaForms project. For further development, refer to the documentation provided in the repository.
