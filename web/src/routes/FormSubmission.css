@@ -1,0 +1,101 @@
+/* FormSubmission.css */
+
+/* Container styling to center form and provide spacing */
+.form-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Form Title Styling */
+.form-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Styling for questions */
+.question-container {
+  margin-bottom: 1.5rem;
+}
+
+.question-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #202124;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Input fields for text responses */
+.question-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  outline: none;
+}
+
+.question-input:focus {
+  border-color: #4285f4;
+}
+
+/* Radio and checkbox options styling */
+.option-container {
+  margin-bottom: 0.5rem;
+}
+
+.option-label {
+  margin-left: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #5f6368;
+}
+
+/* Dropdown styling */
+.dropdown-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.dropdown-select:focus {
+  border-color: #4285f4;
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 2rem auto 0 auto;
+}
+
+.submit-button:hover {
+  background-color: #357ae8;
+}
+
+.loading-text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #5f6368;
+}

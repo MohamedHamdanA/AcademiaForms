@@ -1,0 +1,83 @@
+/* CreateForm.css */
+.create-form-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.question-container {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+}
+
+.question-select {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.options-container {
+  margin-top: 10px;
+}
+
+.option-input {
+  width: calc(100% - 10px);
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-option-button,
+.add-question-button,
+.submit-button,
+.remove-question-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.add-option-button:hover,
+.add-question-button:hover,
+.submit-button:hover,
+.remove-question-button:hover {
+  background-color: #0056b3;
+}
+
+.remove-question-button {
+  background-color: #e74c3c;
+  margin-left: 15px;
+}
+
+.remove-question-button:hover {
+  background-color: #c0392b;
+}

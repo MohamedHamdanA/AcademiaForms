@@ -1,0 +1,90 @@
+/* Container for the entire home page */
+.home-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Main header for the home page */
+.home-header {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Link for creating a new form (Teacher view only) */
+.create-form-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.create-form-link:hover {
+  background-color: #218838;
+}
+
+/* Header for available forms section */
+.forms-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #555;
+}
+
+/* List styling for the forms */
+.forms-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual form item styling */
+.form-item {
+  background-color: #e9ecef;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Links to individual forms */
+.form-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.form-link:hover {
+  color: #0056b3;
+}
+
+/* Additional media query for responsive design */
+@media (max-width: 480px) {
+  .home-container {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .home-header {
+    font-size: 22px;
+  }
+
+  .forms-header {
+    font-size: 20px;
+  }
+
+  .form-link {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,108 @@
+/* Container for the entire View Submissions page */
+.view-submissions-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Styling for each section */
+.submissions-section,
+.department-submissions-section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Filled and Unfilled Submissions Container */
+.filled-unfilled-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Section for students who have filled the form */
+.filled-submissions,
+.unfilled-submissions {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for filled and unfilled sections */
+.filled-submissions h4,
+.unfilled-submissions h4 {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* List items for submissions */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.submission-item,
+.unfilled-student-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease;
+}
+
+.submission-item:hover,
+.unfilled-student-item:hover {
+  background-color: #eef;
+}
+
+/* Styling for answers */
+.answer-item {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Specific styles for different states */
+.submissions-section p,
+.department-submissions-section p {
+  color: #999;
+}
+
+.submissions-section ul,
+.department-submissions-section ul {
+  max-height: 250px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .filled-unfilled-section {
+    flex-direction: column;
+  }
+}
