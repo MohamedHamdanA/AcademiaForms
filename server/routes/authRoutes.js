@@ -32,7 +32,7 @@ router.post("/login", async (req, res) => {
     if (!user || !(await bcrypt.compare(password, user.password))) {
       return res.status(400).send("Invalid username or password");
     }
-    const token = jwt.sign({ id: user._id, role: user.role }, JWTSECRET_KEY , {
+    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET , {
       expiresIn: "1h",
     });
     res.json({ token, role: user.role, username, department: user.department });
